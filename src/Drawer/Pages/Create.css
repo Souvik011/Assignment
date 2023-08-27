@@ -1,0 +1,38 @@
+.form-outer{
+    margin: 4vh auto 1vh auto;
+    padding: 3vh 2.5vw 3vh 2.5vw ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(214, 122, 110);
+    border-radius: 5%;
+    font-family: cursive;
+}
+/* #text {
+    padding: 0.35rem;
+    margin: 1rem;
+    width:25vw;
+}
+.dropdown{
+    padding: 0.35rem;
+    width:33vw;
+}
+#date {
+    padding: 0.35rem;
+    width: 31vw;
+} */
+
+.btn {
+    width:25vw;
+    height: 5vh;
+    margin: 5vh 7.5vw 0 7.5vw;
+    color:rgb(142, 201, 162);
+    background-color: rgb(228, 18, 18);
+}
+
+.btn:hover {
+    background-color: blue;
+    cursor: pointer;
+}

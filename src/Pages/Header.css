@@ -1,0 +1,44 @@
+.side-navigation {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s ease-in-out;
+    background-color: #333;
+    color: white;
+  }
+  
+  .side-navigation.collapsed {
+    left: 0px;
+  }
+  
+  .toggle-button {
+    float: right;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-content {
+    padding-top: 50px;
+    text-align: left;
+  }
+  
+  .nav-content a {
+    display: block;
+    margin: 0 5vw 1vh 0;
+    height:max-content;
+    width: 150px;
+    background-color: aquamarine;
+    padding: 10px;
+    color: rgb(226, 96, 96);
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-content a:hover {
+    background-color: #e65555;
+  }
